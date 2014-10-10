@@ -9,9 +9,6 @@
         "php": ">=5.2.3"
     },
     "autoload": {
-        "classmap": ["ET_Client.php"],
-        "psr-0": {
-            "Detection": "namespaced/"
-        }
+	"files": ["ET_Client.php"]
     }
 }

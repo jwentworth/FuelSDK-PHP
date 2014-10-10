@@ -1,0 +1,17 @@
+{
+    "name": "ExactTarget/FuelSDK-PHP",
+    "type": "library",
+    "description": "A SDK for interacting with exact target.",
+    "keywords": ["exacttarget", "exact target"],
+    "homepage": "https://github.com/ExactTarget/FuelSDK-PHP",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.2.3"
+    },
+    "autoload": {
+        "classmap": ["ET_Client.php"],
+        "psr-0": {
+            "Detection": "namespaced/"
+        }
+    }
+}

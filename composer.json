@@ -9,6 +9,9 @@
         "php": ">=5.2.3"
     },
     "autoload": {
-	"files": ["ET_Client.php"]
+       "psr-0": {
+            "ExactTarget" : "",
+            "ExactTarget\\ET_Client": "ET_Client.php"
+       }
     }
 }

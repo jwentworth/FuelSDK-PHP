@@ -1,4 +1,5 @@
 <?php
+namespace ExactTarget;
 require('soap-wsse.php');
 require('JWT.php');
 

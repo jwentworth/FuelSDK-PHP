@@ -1,5 +1,5 @@
 <?php
-namespace ExactTarget;
+namespace ExactTarget\FuelSDK;
 require('soap-wsse.php');
 require('JWT.php');
 

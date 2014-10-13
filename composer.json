@@ -2,7 +2,7 @@
     "name": "ExactTarget/FuelSDK-PHP",
     "type": "library",
     "description": "A SDK for interacting with exact target.",
-    "keywords": ["exacttarget", "exact target"],
+    "keywords": ["exacttarget", "exact target", "email", "api"],
     "homepage": "https://github.com/ExactTarget/FuelSDK-PHP",
     "license": "MIT",
     "require": {
@@ -10,8 +10,7 @@
     },
     "autoload": {
        "psr-0": {
-            "ExactTarget" : "",
-            "ExactTarget\\ET_Client": "ET_Client.php"
+            "ExactTarget" : "src/"
        }
     }
 }

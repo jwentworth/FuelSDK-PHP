@@ -12,6 +12,6 @@
 		"ext-openssl": "*"
 	},
 	"autoload": {
-		"files": ["ET_Client.php"]
+		"classmap": ["ET_Client.php"]
 	}
 }

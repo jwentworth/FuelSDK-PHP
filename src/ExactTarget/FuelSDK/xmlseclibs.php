@@ -1,4 +1,5 @@
 <?php 
+namespace ExactTarget\FuelSDK;
 /*
 Functions to generate simple cases of Exclusive Canonical XML - Callable function is C14NGeneral() 
 i.e.: $canonical = C14NGeneral($domelement, TRUE);

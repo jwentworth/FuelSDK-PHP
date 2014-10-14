@@ -1,5 +1,5 @@
 <?php
-
+namespace ExactTarget\FuelSDK;
 /**
  * JSON Web Token implementation
  *

@@ -1,5 +1,4 @@
 <?php
-namespace ExactTarget\FuelSDK;
 /**
  * soap-wsse.php
 	*

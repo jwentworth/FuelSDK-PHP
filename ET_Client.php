@@ -2,7 +2,7 @@
 require('soap-wsse.php');
 require('JWT.php');
 
-class ET_Client extends SoapClient {
+class ET_Client extends \SoapClient {
 	public $packageName, $packageFolders, $parentFolders;
 	private $wsdlLoc, $debugSOAP, $lastHTTPCode, $clientId, 
 			$clientSecret, $appsignature, $endpoint, 
